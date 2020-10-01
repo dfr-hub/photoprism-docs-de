@@ -1,69 +1,66 @@
-# Backup and Sync with Nextcloud #
+# Sichern und mit Nextcloud synchronisieren #
 
-## Connect with Nextcloud ##
-PhotoPrism allows you to connect with a Nextcloud server, so that you can automatically
-create backups or fetch your latest pictures.
+## Mit Nextcloud verbinden ##
+Mit PhotoPrism können Sie eine Verbindung zu einem Nextcloud-Server herstellen, sodass Sie dies automatisch tun können
+Erstellen Sie Backups oder rufen Sie Ihre neuesten Bilder ab.
 
-**To connect:**
+**Verbinden:**
 
-1. Go to *Settings*
-2. Open *Backup tab*
-3. Click *add server*
-    ![Screenshot](img/nextcloud-connect.png)
-4. Fill in your Nextcloud server url, username and password
-5. Click *connect*
-    ![Screenshot](img/nextcloud-connect-2.png)
-6. Now your Nextcloud is connected with PhotoPrism
+1. Gehen Sie zu * Einstellungen *
+2. Öffnen Sie die Registerkarte * Backup *
+3. Klicken Sie auf * Server hinzufügen *
+    ! [Screenshot] (img / nextcloud-connect.png)
+4. Geben Sie Ihre Nextcloud-Server-URL, Ihren Benutzernamen und Ihr Passwort ein
+5. Klicken Sie auf * verbinden *
+    ! [Screenshot] (img / nextcloud-connect-2.png)
+6. Jetzt ist Ihre Nextcloud mit PhotoPrism verbunden
 
-## Manually upload files to Nextcloud ##
-**To configure manual upload:**
+## Manuelles Hochladen von Dateien in Nextcloud ##
+** So konfigurieren Sie den manuellen Upload: **
 
-1. Go to *Settings*
-2. Open *Backup tab*
-3. Click into the upload cell of your Nextcloud server
+1. Gehen Sie zu * Einstellungen *
+2. Öffnen Sie die Registerkarte * Backup *
+3. Klicken Sie in die Upload-Zelle Ihres Nextcloud-Servers
 
-![Screenshot](img/upload-1.png)
-4. Select the folder to which photos should be uploaded and click *save*
+! [Bildschirmfoto] (img / upload-1.png)
+4. Wählen Sie den Ordner aus, in den Fotos hochgeladen werden sollen, und klicken Sie auf * Speichern *.
 
-![Screenshot](img/upload-2.png)
+! [Bildschirmfoto] (img / upload-2.png)
 
-**To upload files from PhotoPrism to Nextcloud:**
+** So laden Sie Dateien von PhotoPrism in Nextcloud hoch: **
 
-1. Go to *Photos*
-2. Select photos you want to upload
-3. Open the context menu
-4. Click :material-cloud:
-5. Select your nextcloud account and click *upload*
+1. Gehen Sie zu * Fotos *
+2. Wählen Sie die Fotos aus, die Sie hochladen möchten
+3. Öffnen Sie das Kontextmenü
+4. Klicken Sie auf: Materialwolke:
+5. Wählen Sie Ihr nextcloud-Konto aus und klicken Sie auf * upload *
 
-![Screenshot](img/upload-3.png)
+! [Bildschirmfoto] (img / upload-3.png)
 
-!!! info 
-    Only JPEGs are copied when uploading manually. 
-    Support for RAW and video files will be added in a future release.
+!!! die Info
+    Beim manuellen Hochladen werden nur JPEGs kopiert.
+    Unterstützung für RAW- und Videodateien wird in einer zukünftigen Version hinzugefügt.
 
-!!! attention
-    Due to problems with some Nextcloud settings it might be that uploading to Nextcloud results in 0 byte files. You find information on how to solve it [here](https://github.com/photoprism/photoprism/issues/443).
+!!! Beachtung
+    Aufgrund von Problemen mit einigen Nextcloud-Einstellungen kann das Hochladen in Nextcloud zu 0-Byte-Dateien führen. Informationen zur Lösung finden Sie [hier] (https://github.com/photoprism/photoprism/issues/443).
 
-## Backup/Sync files with Nextcloud ##
-1. Go to *Settings*
-2. Open *Backup tab*
-3. Click into the sync cell of your nextcloud server
-![Screenshot](img/sync-1.png)
-4. Enable synchronization in the upper right corner
-5. Choose the folder in which all your photos are located on Nextcloud
-6. Select how often you want your files to be synced
-7. Select the options that are suitable for you and click *save*
+## Dateien mit Nextcloud sichern / synchronisieren ##
+1. Gehen Sie zu * Einstellungen *
+2. Öffnen Sie die Registerkarte * Backup *
+3. Klicken Sie in die Synchronisierungszelle Ihres nextcloud-Servers
+! [Screenshot] (img / sync-1.png)
+4. Aktivieren Sie die Synchronisation in der oberen rechten Ecke
+5. Wählen Sie den Ordner, in dem sich alle Ihre Fotos in Nextcloud befinden
+6. Wählen Sie aus, wie oft Ihre Dateien synchronisiert werden sollen
+7. Wählen Sie die für Sie geeigneten Optionen aus und klicken Sie auf * Speichern *.
 
-![Screenshot](img/sync-2.png)
+! [Bildschirmfoto] (img / sync-2.png)
 
-!!! attention
-    Videos won't be synced yet. We are working on it.
+!!! Beachtung
+    Videos werden noch nicht synchronisiert. Wir arbeiten daran.
 
-### Remote Sync Options ###
-* *Download remote files* will download all files from your nextcloud that do not yet exist in PhotoPrism
-* *Upload local files* will upload all files from PhotoPrism to your nextcloud folder that do not yet exist there
-* *Preserve filenames* will keep filenames from Nextcloud without renaming them
-* *Sync raw images* will upload/download raw files alongside with jpegs
-
-
-
+### Remote Sync-Optionen ###
+* * Remote-Dateien herunterladen * lädt alle Dateien aus Ihrer nächsten Cloud herunter, die in PhotoPrism noch nicht vorhanden sind
+* * Lokale Dateien hochladen * lädt alle Dateien von PhotoPrism in Ihren nextcloud-Ordner hoch, die dort noch nicht vorhanden sind
+* * Dateinamen beibehalten * behält Dateinamen von Nextcloud bei, ohne sie umzubenennen
+* * Rohbilder synchronisieren * lädt Rohdateien zusammen mit JPEGs hoch / herunter
